@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+li,a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+button{
+    text-transform: uppercase;
+}
