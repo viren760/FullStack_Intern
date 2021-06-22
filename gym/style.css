@@ -4,9 +4,17 @@
     padding: 0;
 }
 
+
 header{
     display: flex;
     justify-content: space-between;
+  
+   
+}
+
+
+body{
+    background-color:black;
 }
 
 li,a {
@@ -14,8 +22,41 @@ li,a {
     display: inline-block;
     padding: 7px;
     text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+}
+
+li,a:hover{
+    color: white;
 }
 
 button{
     text-transform: uppercase;
+    margin-top: 25px;
 }
+
+div.conatiner{
+    display: flex;
+}
+
+#head{
+    margin-left: 150px;
+}
+
+#img{
+    margin-top: 15px;
+    
+}
+#text{
+    margin-top: 15px;
+    margin-block: auto;
+    left: 300px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 10px;
+    height: 67px;
+    width: 200px;
+}
+
