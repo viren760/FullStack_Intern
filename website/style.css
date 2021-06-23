@@ -9,6 +9,7 @@ body{
 
 #nav-bar{
    background-color: rgb(255, 255, 8);
+   display: flex;
 }
 
 
