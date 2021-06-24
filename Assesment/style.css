@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#main-container{
+    
+}
+
+@media (max-width:1000px){
+    #left{
+        display: none;
+    }
+}
+
+#left{
+    background-color: black;
+    color: white;
+}
+
+#right{
+    
+}
+
+#img{
+    
+    padding: 30px 0px 30px 30px;
+    margin: auto;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#contact{
+    display: block;
+    padding: 30px 0px 30px 30px;
+}
+
+#allcontact{
+    padding-top: 10px;
+}
+
+i{
+    padding: 10px;
+}
+
+#education{
+    display: block;
+    padding: 30px 0px 30px 30px;
+}
+
+#alleducation{
+    padding-top: 15px;
+}
+
+.school{
+    padding-top: 10px;
+}
+
+#ename{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#skill{
+    
+    display: block;
+    padding: 70px 35px 30px 35px;;
+}
+
+
+#head{
+    background-color: #e2e2e2;
+    margin-left: 20px;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#name{
+text-align: center;
+}
+
+#profile{
+    text-align: center;
+}
+
+#exp1{
+    display: block;
+    padding: 60px 30px 30px 30px;
+}
+#exp2{
+    display: block;
+    padding: 30px;
+}
+
+#exp3{
+    display: block;
+    padding: 30px;
+}
+
+#refrence{
+    display: block;
+    padding: 30px; 
+}
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e2e2e2;
+    border-radius: 30px;
+}
+.material{
+    padding-top: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.expp1, .expp2, .expp3{
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.exp1, .exp2, .exp3{
+    margin-left: auto;
+}
+
+#small{
+   background-color: white;
+   width: 13%;    
+}
+
+#big{
+    background-color: white;
+    width: 85%;
+}
+
+#smallw{
+    background-color:black;
+    width: 8%;  
+   border: 1px solid black;
+ }
+
+ #bigw{
+    background-color:black;
+    width: 98%;  
+   border: 1px solid black;
+ }
+
+ #medium{
+     background-color: black;
+     width: 25%;
+ }
+ 
+
+ #sdt{
+     padding-top: 20px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     
+    }
+
+ .heads{
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .headss{
+     font-weight:900;
+  font-family: Arial, Helvetica, sans-serif;
+ }
