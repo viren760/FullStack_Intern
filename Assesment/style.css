@@ -13,20 +13,27 @@
     #left{
         display: none;
     }
+
+    #right{
+        margin: auto;
+    }
 }
+
+
 
 #left{
     background-color: black;
     color: white;
+    padding: 0px 60px 0px 50px;
 }
 
 #right{
-    
+    padding: 0px 60px 0px 60px;
 }
 
 #img{
     
-    padding: 30px 0px 30px 30px;
+    padding: 70px 0px 30px 30px;
     margin: auto;
 }
 
@@ -45,6 +52,10 @@ img{
 
 i{
     padding: 10px;
+}
+
+#mail, #number, #address, #linkedin{
+    text-transform: uppercase;
 }
 
 #education{
@@ -81,10 +92,14 @@ i{
 
 #name{
 text-align: center;
+padding-bottom: 5px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #profile{
     text-align: center;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #exp1{
@@ -137,17 +152,17 @@ text-align: center;
 
 #small{
    background-color: white;
-   width: 13%;    
+   width: 17%;    
 }
 
 #big{
     background-color: white;
-    width: 85%;
+    width: 90%;
 }
 
 #smallw{
     background-color:black;
-    width: 8%;  
+    width: 5%;  
    border: 1px solid black;
  }
 
@@ -160,6 +175,12 @@ text-align: center;
  #medium{
      background-color: black;
      width: 25%;
+ }
+
+ #mediums{
+    background-color: black;
+    width: 25%;
+    margin: auto;
  }
  
 
@@ -179,3 +200,59 @@ text-align: center;
      font-weight:900;
   font-family: Arial, Helvetica, sans-serif;
  }
+
+ #icon{
+     display: block;
+ }
+
+ #icons{
+     background-color: black;
+    width: 8%;  
+    border: 1px solid black;   
+    margin: auto;
+    display: block;
+    position: absolute;
+    margin-left: 378px;
+    margin-top: 30px;
+ }
+
+ #iconsr{
+    background-color: black;
+   width: 8%;  
+   border: 1px solid black;   
+   margin: auto;
+   display: block;
+   position: absolute;
+   margin-left: 543px;
+   margin-top: 26px;
+
+
+}
+
+
+
+
+
+ div.a{
+    width: 55px;
+    height: 55px;
+    border: 2px solid black; 
+    -ms-transform: rotate(40deg); /* IE 9 */
+    transform: rotate(40deg);
+    display: block;
+    margin: auto;
+ }
+
+ #icon{
+     padding-bottom: 30px;
+ }
+
+ #lefthr{
+   display: flex;
+ }
+
+ #righthr{
+    display: flex;
+ }
+
+
