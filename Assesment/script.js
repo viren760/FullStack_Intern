@@ -10,6 +10,10 @@
     localStorage.setItem("textaddress",faddress);
     var  flinkedin = document.getElementById("loginlinkedin").value;
     localStorage.setItem("textlinkedin",flinkedin);
+
+
+   
+      e.preventdefault();
      
  }
 

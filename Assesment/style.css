@@ -14,10 +14,12 @@
         display: none;
     }
 
-    #right{
-        margin: auto;
+    #right, #head{
+        display: block;
+        margin:auto ;
     }
 }
+
 
 
 
@@ -84,7 +86,7 @@ i{
 
 #head{
     background-color: #e2e2e2;
-    margin-left: 20px;
+    margin-left: 70px;
     display: block;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -124,7 +126,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .container{
     padding:50px 20px 50px 20px;
-    background-color: #e2e2e2;
+    color: white;
     border-radius: 30px;
 }
 .material{
@@ -256,3 +258,10 @@ font-family: Arial, Helvetica, sans-serif;
      font-weight: 600;
  }
  
+ #btn:hover{
+     background-color: crimson;
+ }
+
+ #message1,#message2,#message3,#message4,#message5{
+  color: crimson;
+ }
