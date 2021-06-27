@@ -1,27 +1,27 @@
 
  const signUp = e =>{
-     let formdata ={
-         fname : document.getElementById("loginname").value,
-         femail : document.getElementById("loginemail").value,
-         fnumber : document.getElementById("loginnumber").value,
-         faddress : document.getElementById("loginaddress").value,
-         flinkedin : document.getElementById("loginlinkedin").value,
-     }
-     localStorage.setItem("formdata",JSON.stringify(formdata));
-     e.preventDefault();
+    var fname = document.getElementById("loginname").value;
+         localStorage.setItem("textname",fname);
+    var  femail = document.getElementById("loginemail").value;
+    localStorage.setItem("textemail",femail);
+    var   fnumber = document.getElementById("loginnumber").value;
+    localStorage.setItem("textnumber",fnumber);
+    var  faddress = document.getElementById("loginaddress").value;
+    localStorage.setItem("textaddress",faddress);
+    var  flinkedin = document.getElementById("loginlinkedin").value;
+    localStorage.setItem("textlinkedin",flinkedin);
      
  }
 
 
- function display(){
-    let[fname , femail, fnumber, faddress, flinkedin] = JSON.parse(localStorage.getItem('formdata'));
+ 
 
-    document.getElementById('name').innerHTML=`${fname}`;
-    document.getElementById('email').innerHTML=`${femail}`;
-    document.getElementById('number').innerHTML=`${fnumber}`;
-    document.getElementById('address').innerHTML=`${faddress}`;
-    document.getElementById('linkedin').innerHTML=`${flinkedin}`;
+    document.getElementById('name').innerHTML=localStorage.getItem("textname");
+    document.getElementById('mail').innerHTML=localStorage.getItem("textemail");
+    document.getElementById('number').innerHTML=localStorage.getItem("textnumber");
+    document.getElementById('address').innerHTML=localStorage.getItem("textaddress");
+    document.getElementById('linkedin').innerHTML=localStorage.getItem("textlinkedin");
 
- }
+ 
 
  
