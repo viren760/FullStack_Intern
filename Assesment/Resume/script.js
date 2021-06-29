@@ -66,8 +66,6 @@
 
  function dispdata(){
     let obj = JSON.parse(localStorage.getItem('formdata'));
-
-    console.log(obj.fname);
    
     let dispname =  document.getElementById('name');
     dispname.innerHTML = `${obj.fname}`;

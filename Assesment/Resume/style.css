@@ -21,12 +21,19 @@
 
 
 
+@media (min-width:){
+
+}
+
 #left{
     background-color: black;
     color: white;
     padding: 0px 60px 0px 50px;
 }
 
+#main-right{
+
+}
 #right{
     padding: 0px 60px 0px 60px;
 }
@@ -94,6 +101,10 @@ i{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+
+
+    
 
 #name{
 text-align: center;
@@ -275,5 +286,42 @@ font-family: Arial, Helvetica, sans-serif;
  }
 
  
+
+ @media (max-width: 1100px){
+    .col-lg-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #head{
+        background-color: #e2e2e2;
+       
+        display: block;
+       
+    }
+    #main-container{
+        width: 100%;
+    }
+    #head{
+        background-color: #e2e2e2;
+        margin-left:0px ;
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    #right{
+        padding : 0px 0px 0px 0px;
+    }
+    #main-right{
+       padding: 0px 0px 0px 0px ;
+      
+    }
+    #footer{
+        display: flex;
+        padding: 30px 20px 30px 20px;
+     }
+    
+    
+    }
  
  
