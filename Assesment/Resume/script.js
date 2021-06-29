@@ -1,15 +1,25 @@
 
  const signUp = e =>{
+
+
+     let formdata ={
+
+          fname : document.getElementById('loginname').value,
+          femail : document.getElementById('loginemail').value,
+          fnumber : document.getElementById('loginnumber').value,
+          faddress : document.getElementById('loginaddress').value,
+          flinkedin : document.getElementById('loginlinkedin').value
+     }
+    
+    
+
     var fname = document.getElementById("loginname").value;
-         localStorage.setItem("textname",fname);
     var  femail = document.getElementById("loginemail").value;
-    localStorage.setItem("textemail",femail);
     var   fnumber = document.getElementById("loginnumber").value;
-    localStorage.setItem("textnumber",fnumber);
     var  faddress = document.getElementById("loginaddress").value;
-    localStorage.setItem("textaddress",faddress);
     var  flinkedin = document.getElementById("loginlinkedin").value;
-    localStorage.setItem("textlinkedin",flinkedin);
+
+
 
      //  regex
       var namecheck = /^[a-zA-Z]+[\-'\s]?[a-zA-Z ]+$/;
@@ -58,17 +68,40 @@
          document.getElementById('message5').innerHTML="** Linkedin ID is Invalid **";
          return false;
      }
+     localStorage.setItem('formdata', JSON.stringify(formdata));
+
      e.preventdefault();
  }
 
 
+ function dispdata(){
+    let obj = JSON.parse(localStorage.getItem('formdata'));
+
+    console.log(obj.fname);
+   
+    let dispname =  document.getElementById('name');
+    dispname.innerHTML = `${obj.fname}`;
+    let dispemail = document.getElementById('mail');
+    dispemail.innerHTML = `${obj.femail}`;
+    let dispnumber = document.getElementById('number');
+    dispnumber.innerHTML = `${obj.fnumber}`;
+    let dispaddress = document.getElementById('address');
+    dispaddress.innerHTML = `${obj.faddress}`;
+    let displinkedin =  document.getElementById('linkedin');
+    displinkedin.innerHTML =`${obj.flinkedin}`; 
+
+ }
+
+ dispdata();
+
+
  
 
-    document.getElementById('name').innerHTML=localStorage.getItem("textname");
-    document.getElementById('mail').innerHTML=localStorage.getItem("textemail");
-    document.getElementById('number').innerHTML=localStorage.getItem("textnumber");
-    document.getElementById('address').innerHTML=localStorage.getItem("textaddress");
-    document.getElementById('linkedin').innerHTML=localStorage.getItem("textlinkedin");
+//     document.getElementById('name').innerHTML=localStorage.getItem("textname");
+//     document.getElementById('mail').innerHTML=localStorage.getItem("textemail");
+//     document.getElementById('number').innerHTML=localStorage.getItem("textnumber");
+//     document.getElementById('address').innerHTML=localStorage.getItem("textaddress");
+//     document.getElementById('linkedin').innerHTML=localStorage.getItem("textlinkedin");
 
  
    // creating an array
