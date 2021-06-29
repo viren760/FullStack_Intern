@@ -18,7 +18,7 @@ public class strings {
         System.out.println("My Name is :"+name+Blank+middle+Blank+Lastname);
         System.out.println("Virender"+" "+"Negi");
         System.out.println(full);
-//        here we concatinate the num with one coma between it ..
+//        here we concatinate the number with one coma between it ..
         System.out.println("My number is :"+anum +","+dnum );
 	}
 
