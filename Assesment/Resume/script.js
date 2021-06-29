@@ -1,18 +1,6 @@
 
  const signUp = e =>{
 
-
-     let formdata ={
-
-          fname : document.getElementById('loginname').value,
-          femail : document.getElementById('loginemail').value,
-          fnumber : document.getElementById('loginnumber').value,
-          faddress : document.getElementById('loginaddress').value,
-          flinkedin : document.getElementById('loginlinkedin').value
-     }
-    
-    
-
     var fname = document.getElementById("loginname").value;
     var  femail = document.getElementById("loginemail").value;
     var   fnumber = document.getElementById("loginnumber").value;
@@ -68,8 +56,10 @@
          document.getElementById('message5').innerHTML="** Linkedin ID is Invalid **";
          return false;
      }
-     localStorage.setItem('formdata', JSON.stringify(formdata));
 
+     // for setting local storage ...
+     localStorage.setItem('formdata', JSON.stringify({fname,fnumber,femail,faddress,flinkedin}));
+     // this is used to prevent auto submit form ..
      e.preventdefault();
  }
 
@@ -93,15 +83,6 @@
  }
 
  dispdata();
-
-
- 
-
-//     document.getElementById('name').innerHTML=localStorage.getItem("textname");
-//     document.getElementById('mail').innerHTML=localStorage.getItem("textemail");
-//     document.getElementById('number').innerHTML=localStorage.getItem("textnumber");
-//     document.getElementById('address').innerHTML=localStorage.getItem("textaddress");
-//     document.getElementById('linkedin').innerHTML=localStorage.getItem("textlinkedin");
 
  
    // creating an array
