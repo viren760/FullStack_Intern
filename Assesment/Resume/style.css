@@ -290,7 +290,7 @@ font-family: Arial, Helvetica, sans-serif;
  @media (max-width: 1100px){
     .col-lg-9 {
         flex: 0 0 100%;
-        max-width: 100%;
+        max-width: 98%;
     }
     #head{
         background-color: #e2e2e2;
