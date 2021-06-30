@@ -23,7 +23,7 @@ class SeeHowMethodWorks{
 }
 
 
-public class Methods {
+public class Methods { 
 
 	public static void main(String[] args) {
 		
