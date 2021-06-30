@@ -14,11 +14,7 @@
         display: none;
     }
 
-    #right{
-
-    }
 }
-
 
 
 @media (min-width:){
@@ -323,5 +319,124 @@ font-family: Arial, Helvetica, sans-serif;
     
     
     }
- 
+    
+    @media (min-width:768px) and (max-width:1024px) {
+        #name{
+            text-transform: uppercase;
+            font-size: revert;
+        }
+        h6.heads{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+        
+        }
+    }
+    @media (max-width: 1336px) and (min-width: 1024px){
+        #name {
+            text-transform: uppercase;
+            font-size: xxx-large;
+        }
+        
+    }
+
+    @media (min-width:1337px) {
+        #name{
+            text-transform: uppercase;
+        }
+        h6.heads{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+        
+        }
+
+        }
+    
+    
+    @media (max-width: 812px) and (min-width: 375px){
+        #name {
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: 700;
+        }
+        div.pf{
+            font-size: revert;
+        }
+        h1#name{
+                text-transform: uppercase;
+                font-size: x-large;
+                font-weight: 700;   
+        }
+       h5#pf{
+        font-size: large;
+       }
+         section.expp1,section.expp2,section.expp3{
+            font-size: smaller;
+            display: flex;
+            padding-top: 10px;
+            font-weight: bold;
+
+         }
+
+         div#ref{
+           font-size: 12px;
+         }
+    }
+
+    @media (max-width: 640px) and (min-width: 360px){
+        #name {
+            text-transform: uppercase;
+            font-size: x-large;
+            font-weight: 700;
+        }
+        div.pf{
+            font-size: revert;
+        }
+        h1#name{
+                text-transform: uppercase;
+                font-size: x-large;
+                font-weight: 700;   
+        }
+       h5#pf{
+        font-size: 15px;
+       }
+
+       h6#sdt {
+        padding-top: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+       }
+
+       h6.heads{
+           font-size: 15px; 
+           padding-top: 17px;
+       }
+
+       h5.headss{
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: initial;
+    }
+     section.expp1,section.expp2,section.expp3{
+            font-size: 12px;
+            display: flex;
+            padding-top: 10px;
+            font-weight: bold;
+            
+         }
+
+         div#ref{
+           font-size: small;
+         }
+
+         section.material{
+             font-size: smaller;
+         }
+    
+       }
+
+        
+    
  
