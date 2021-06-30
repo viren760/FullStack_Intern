@@ -434,6 +434,11 @@ font-family: Arial, Helvetica, sans-serif;
          section.material{
              font-size: smaller;
          }
+
+         h6#ref-head{
+             font-size: 13px;
+             font-weight: 600;
+         }
     
        }
 
