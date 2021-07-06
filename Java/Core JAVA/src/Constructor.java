@@ -5,10 +5,11 @@
 	 
 	// Default Constructor ... 
 	 public Programm() {
-		 this(5,"hi");
+		 this(5);
 		 System.out.println("First Constructor");
 	 }
 	 public Programm(int value) {
+//		 this(5,"Hi");
 		 this.value= value;
 		 System.out.println(" Second Constructor "+value);
 	 }
