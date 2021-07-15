@@ -1,6 +1,6 @@
 package com.Banking;
 
-public class SBI extends Main {
+public class SBI extends RBI {
 	
 	
 	public void Name() {
@@ -8,6 +8,7 @@ public class SBI extends Main {
 	}
 	
 	public void Loans() {
+		System.out.println("fetching loans .....");
 		System.out.println("1. Personal loans");
 		System.out.println("2. Home loans ");
 		System.out.println("3. Educational loans ");

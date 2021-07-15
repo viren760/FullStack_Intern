@@ -9,6 +9,9 @@ public class Interest {
 		this.loans= loans;
 		this.interest=interest;
 		System.out.println("The interest of "+loans+" is "+interest+"%");
+		System.out.println();
+		System.out.println();
+		System.out.println("     THANKYOU FOR VISITING :)      ");
 	}
 
 }

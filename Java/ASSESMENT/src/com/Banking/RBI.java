@@ -2,7 +2,7 @@ package com.Banking;
 
 import java.util.Scanner;
 
-public class Main {
+public class RBI{
 
 	public void ShowAllBanks() {
 		System.out.println("1. SBI (State Bank Of India)");
@@ -12,7 +12,7 @@ public class Main {
 	}
 	
 	public static void main(String[] args) throws PageNotFoundExp {
-		Main m = new Main();
+		RBI r = new RBI();
 		SBI s = new SBI();
 		HDFC h = new HDFC();
 		KOTAK k = new KOTAK();
@@ -104,15 +104,15 @@ public class Main {
 
 					
 					
-				}else if (val.equalsIgnoreCase("Show")) {
-					m.ShowAllBanks();
-					 break;
 				}else {
 					
 				}
 			}
 
-		}else if(val.equalsIgnoreCase("NO")) {
+		}else if (val.equalsIgnoreCase("Show")) {
+			r.ShowAllBanks();
+		}
+		else if(val.equalsIgnoreCase("NO")) {
 			System.out.println("Thankyou for visiting .. please come with your details");
 		}else {
 			System.out.println("Please Enter your Bank Details .....");
